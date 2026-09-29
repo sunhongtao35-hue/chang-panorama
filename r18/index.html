@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1d211f"><meta name="description" content="長 chang · R18空间方案，多视点场景浏览与平面定位。">
+<title>長 chang · 进入空间</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="tour" aria-label="長 chang 空间浏览">
+  <div id="viewport" tabindex="0" role="region" aria-label="场景画面，拖动查看；方向键移动，加减键缩放">
+    <div id="imageFrame"><img id="sceneImage" draggable="false" alt="" fetchpriority="high"></div>
+  </div>
+  <div class="shade top"></div><div class="shade bottom"></div>
+  <header class="toolbar"><div class="brand"><b>長</b><span>chang<small>空间浏览 · R18</small></span></div><div class="toolbar-actions"><button id="mapButton" aria-haspopup="dialog">平面定位</button><button id="infoButton" aria-haspopup="dialog" aria-label="浏览说明">?</button></div></header>
+  <div id="loading" class="loading" role="status"><span></span>正在进入…</div>
+  <div id="error" class="error" role="alert" hidden><h2>画面暂时没加载出来</h2><p>请检查网络，再试一次。</p><button id="retry">重新加载</button><button id="stay" hidden>留在当前画面</button></div>
+  <div class="view-controls" role="group" aria-label="画面控制"><button id="zoomOut" aria-label="缩小">−</button><output id="zoomValue">1.0×</output><button id="zoomIn" aria-label="放大">+</button><span></span><button id="fitButton" aria-pressed="false">看全图</button><button id="resetButton" aria-label="重置画面">复位</button></div>
+  <footer class="scene-footer"><div class="scene-heading"><span id="number">01</span><div><h1 id="sceneTitle">入口与主吧台</h1><p id="sceneDescription"></p></div></div><div class="next"><span>移步至</span><nav id="nextScenes" aria-label="相邻观察位置"></nav></div><div class="footer-bottom"><button id="scenesButton" aria-haspopup="dialog">全部视点 <span id="sceneCount"></span></button><p id="gestureHint">拖动查看 · 点击移步</p><button id="fullButton" aria-label="全屏浏览">全屏</button></div></footer>
+  <div class="sr-only" id="announcement" aria-live="polite"></div>
+</main>
+<dialog id="mapDialog"><div class="dialog-head"><div><span>R18 · 平面设计</span><h2>你在这里</h2></div><button class="close" aria-label="关闭平面">×</button></div><p class="dialog-intro">点选编号切换观察位置。金色门线为珍藏馆与咖啡厅的内门。</p><div id="map" class="plan-map"></div><div id="mapNodes" class="map-nodes"></div><div class="map-download"><a href="assets/R18-plan.pdf" target="_blank" rel="noopener">查看完整尺寸平面图</a><span>示意定位 · 以平面设计尺寸为准</span></div></dialog>
+<dialog id="scenesDialog"><div class="dialog-head"><div><span>选择观察位置</span><h2>沿着空间看看</h2></div><button class="close" aria-label="关闭视点">×</button></div><div id="sceneGrid" class="scene-grid"></div></dialog>
+<dialog id="infoDialog"><div class="dialog-head"><div><span>操作说明</span><h2>查看与移步</h2></div><button class="close" aria-label="关闭说明">×</button></div><div class="info-copy"><p>手机单指拖动画面，双指或 + / − 放大细看。点击“移步至”或平面中的编号，切换观察位置。</p><p>“看全图”可查看完整构图；“复位”回到默认视角。手机横过来看，能看到更完整的空间关系。</p><p>这里使用本轮场景效果图，保持原图比例与质感。每个点位可查看的范围以图片为限，不是现场 360° 全景，也不是连续行走模型。</p><p>修复室通过玻璃观看，访客不进入作业区。珍藏馆保留独立外门，并通过 D08 内门连接咖啡厅。</p><p class="muted">当前版本：R18 · 平面设计讨论版。场景图表达材质和空间体验；尺寸、门位与通路以配套平面图为准。</p></div></dialog>
+<noscript><p class="noscript">请启用 JavaScript，或<a href="assets/R18-plan.pdf">打开平面图</a>。</p></noscript>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
