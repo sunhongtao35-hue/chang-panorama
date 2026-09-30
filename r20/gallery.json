@@ -1,0 +1,140 @@
+{
+  "schema": "chang-gallery-v1",
+  "title": "室内效果图集",
+  "version": "R21",
+  "items": [
+    {
+      "id": "entrance",
+      "title": "入口与暖木主吧",
+      "description": "进门先看到暖木主吧。点单、咖啡出品与侧边特调区相邻；前场使用木椅，不设皮椅。",
+      "thumb": "photos/entrance-640.webp",
+      "image": "photos/entrance-1600.webp",
+      "width": 1620,
+      "height": 971,
+      "kind": "设计效果图",
+      "viewId": "entrance"
+    },
+    {
+      "id": "cafe_front",
+      "title": "咖啡座席与公共通道",
+      "description": "沿墙卡座、木桌与单椅组成咖啡前场，中央留连续通道。前场平面共18席，另有阅读与观展12席；本图展示南侧座席。",
+      "thumb": "photos/cafe_front-640.webp",
+      "image": "photos/cafe_front-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图"
+    },
+    {
+      "id": "special",
+      "title": "独立特调台与三组柜",
+      "description": "1.8×1.2米不锈钢特调台保留冰槽、水池。三组带电源柜放在台后，员工门在柜子最左侧；主吧使用独立定制柜体。",
+      "thumb": "photos/special-640.webp",
+      "image": "photos/special-1600.webp",
+      "width": 1619,
+      "height": 971,
+      "kind": "设计效果图",
+      "viewId": "special"
+    },
+    {
+      "id": "assembly",
+      "title": "半开放拼装与新品零售",
+      "description": "两侧拼装桌共10席，低柜加玻璃围合，便于管理和观看。只做简单拼装；背墙陈列全新盒装万代高达，外侧墙面参与故事回廊。",
+      "thumb": "photos/assembly-640.webp",
+      "image": "photos/assembly-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "assembly"
+    },
+    {
+      "id": "workshop",
+      "title": "封闭修复工作室",
+      "description": "员工在室内修复、打磨，客人在外隔玻璃观看。保留工作台和员工出入口；开放日切换雾化玻璃视线，公众不进入作业区。",
+      "thumb": "photos/workshop-640.webp",
+      "image": "photos/workshop-1600.webp",
+      "width": 1620,
+      "height": 971,
+      "kind": "设计效果图",
+      "viewId": "workshop"
+    },
+    {
+      "id": "viewing",
+      "title": "修复观摩与公共通行",
+      "description": "玻璃外驻足观察带与公共通行分开，避免观摩堵住回廊。右侧为半开放拼装区。墙上图文是工序示意，尚非真实修复案例档案。",
+      "thumb": "photos/viewing-640.webp",
+      "image": "photos/viewing-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "viewing"
+    },
+    {
+      "id": "story",
+      "title": "回廊主题展：从热血到冒险",
+      "description": "拼装背墙外侧作为主题展墙：樱木花道与路飞的作品背景、人物精神和收藏故事；下方预留来历、入库、修复、完成四段档案。图文为样稿，正式修复对比须使用真实记录。",
+      "thumb": "photos/story-640.webp",
+      "image": "photos/story-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "story"
+    },
+    {
+      "id": "reading_north",
+      "title": "阅读与收藏档案",
+      "description": "8席阅读长桌配收藏故事、修复记录与少量实物展示。保留桌后空间，图文版面为设计示意，正式内容需采用真实作品资料。",
+      "thumb": "photos/reading_north-640.webp",
+      "image": "photos/reading_north-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "reading_north"
+    },
+    {
+      "id": "reading_south",
+      "title": "阅读区与珍藏馆对望",
+      "description": "阅读长桌旁另设4席观展桌，隔透明玻璃看珍藏主题展台背面。樱木花道与路飞是本轮陈列示意；展台、玻璃和座位关系沿用平面。",
+      "thumb": "photos/reading_south-640.webp",
+      "image": "photos/reading_south-1600.webp",
+      "width": 1585,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "reading_south"
+    },
+    {
+      "id": "gallery_north",
+      "title": "珍藏馆主题展台",
+      "description": "三组展台以樱木花道和路飞作本轮陈列示意，保留开放框架和透明背面。侧柜与轮展台展示不同尺度藏品，具体藏品版本待实物核对。",
+      "thumb": "photos/gallery_north-640.webp",
+      "image": "photos/gallery_north-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "gallery_north"
+    },
+    {
+      "id": "gallery_reverse",
+      "title": "珍藏馆通咖啡厅内门",
+      "description": "D08内门联通咖啡厅，按平面向馆内开。柱旁保留进出通道，轮展台与主题展台分开布置，便于分批看展与管理。",
+      "thumb": "photos/gallery_reverse-640.webp",
+      "image": "photos/gallery_reverse-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "gallery_reverse"
+    },
+    {
+      "id": "gallery_exit",
+      "title": "珍藏馆独立外门",
+      "description": "D03独立外门保留，左侧独立展柜与右侧长柜之间留进入路线。模型作品按尺度分层陈列，陈列方案可轮换，不把入口塞满。",
+      "thumb": "photos/gallery_exit-640.webp",
+      "image": "photos/gallery_exit-1600.webp",
+      "width": 1586,
+      "height": 992,
+      "kind": "设计效果图",
+      "viewId": "gallery_exit"
+    }
+  ],
+  "pending": [],
+  "note": "12个室内视角；樱木花道与路飞为陈列示意，R20模型用于核对空间。"
+}
