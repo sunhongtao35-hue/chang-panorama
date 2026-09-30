@@ -1,0 +1,21 @@
+{
+  "stage": "static only; browser validation to be performed by main agent",
+  "geometry": "R20: interior minimum correction; 10 assembly seats with 1250 pulled-chair aisle, rear retail stopping pocket",
+  "columnCount": 12,
+  "cafeLooseChairs": 20,
+  "assemblyLooseChairs": 10,
+  "cafeBenchSeats": 10,
+  "cafeTotalSeats": 30,
+  "viewCount": 12,
+  "storyTextureCount": 13,
+  "missingTextures": [],
+  "allRuntimeFilesOnLocalDisk": true,
+  "notes": [
+    "No generated structure columns",
+    "No invented external windows",
+    "No opaque ceiling or claimed accurate beam grid",
+    "All fixture/chair footprints read at runtime from R20 JSON",
+    "Vertical dimensions illustrative except supplied BK size",
+    "Furniture world remains fixed across all camera changes"
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "schema": "story-panel-textures-v1",
+  "revision": "R20内容落实；不改R18几何",
+  "geometry_source": "R18_geometry.json",
+  "geometry_sha256_unchanged": "37ca8cb19e11ca8002888f88116b1c727aec6236bcf4ead5c3a185a0e2faaac5",
+  "usage": "3D正视图文纹理及室内图册素材；图片最大宽1600px；不是大幅印刷最终分辨率",
+  "assets": [
+    {
+      "r18_location": "APN拼装北墙外侧AN1",
+      "reference_bounds_m": [
+        10.2,
+        10,
+        11.6,
+        10
+      ],
+      "front_normal": "north",
+      "mount_bottom_intent_m": 1.05,
+      "content_status": "partly_verified",
+      "width_basis": "R18 AN1 x10.20–11.60，1400mm",
+      "official_sources": [
+        "https://slamdunk-movie.jp/zh-cn/about/character/?char=sakuragi"
+      ],
+      "photo_sources": [
+        "image9.png"
+      ],
+      "id": "AN1_作品身份_樱木花道",
+      "texture_png": "AN1_作品身份_樱木花道.png",
+      "editable_vector_pdf": "AN1_作品身份_樱木花道.pdf",
+      "pixels": [
+        1600,
+        1029
+      ],
+      "graphic_face_size_m": [
+        1.4,
+        0.9
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_location": "APN拼装北墙外侧AN2",
+      "reference_bounds_m": [
+        11.75,
+        10,
+        13.2,
+        10
+      ],
+      "front_normal": "north",
+      "mount_bottom_intent_m": 1.05,
+      "content_status": "template_pending",
+      "width_basis": "R18 AN2 x11.75–13.20，1450mm",
+      "photo_sources": [
+        "image32.png"
+      ],
+      "id": "AN2_收藏故事_待真实口述",
+      "texture_png": "AN2_收藏故事_待真实口述.png",
+      "editable_vector_pdf": "AN2_收藏故事_待真实口述.pdf",
+      "pixels": [
+        1600,
+        993
+      ],
+      "graphic_face_size_m": [
+        1.45,
+        0.9
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_location": "U2阅读区北墙",
+      "reference_bounds_m": [
+        17,
+        18.1,
+        18.8,
+        18.25
+      ],
+      "front_normal": "south",
+      "mount_bottom_intent_m": 1.0,
+      "content_status": "mixed_photo_index_and_template",
+      "width_basis": "R18 U2宽1800mm",
+      "photo_sources": [
+        "image9.png",
+        "image32.png"
+      ],
+      "id": "U2_收藏档案_照片索引",
+      "texture_png": "U2_收藏档案_照片索引.png",
+      "editable_vector_pdf": "U2_收藏档案_照片索引.pdf",
+      "pixels": [
+        1600,
+        933
+      ],
+      "graphic_face_size_m": [
+        1.8,
+        1.05
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_location": "U3阅读区北墙",
+      "reference_bounds_m": [
+        20,
+        18.1,
+        22.2,
+        18.25
+      ],
+      "front_normal": "south",
+      "mount_bottom_intent_m": 1.0,
+      "content_status": "template_pending",
+      "width_basis": "R18 U3宽2200mm",
+      "photo_sources": [],
+      "case_id_bound_to_real_object": false,
+      "id": "U3_修复档案_四阶段待填",
+      "texture_png": "U3_修复档案_四阶段待填.png",
+      "editable_vector_pdf": "U3_修复档案_四阶段待填.pdf",
+      "pixels": [
+        1600,
+        800
+      ],
+      "graphic_face_size_m": [
+        2.2,
+        1.1
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_location": "U4阅读区东墙；面宽沿y方向",
+      "reference_bounds_m": [
+        23.65,
+        14.1,
+        23.8,
+        15.8
+      ],
+      "front_normal": "west",
+      "mount_bottom_intent_m": 1.0,
+      "content_status": "partly_verified",
+      "width_basis": "R18 U4沿y方向1700mm",
+      "official_sources": [
+        "https://www.sideshow.com/collectibles/marvel-iron-man-mark-xlvii-hot-toys-902987"
+      ],
+      "photo_sources": [
+        "image32.png"
+      ],
+      "id": "U4_MK47_银幕与装甲细节",
+      "texture_png": "U4_MK47_银幕与装甲细节.png",
+      "editable_vector_pdf": "U4_MK47_银幕与装甲细节.pdf",
+      "pixels": [
+        1600,
+        941
+      ],
+      "graphic_face_size_m": [
+        1.7,
+        1.0
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_location": "W1观察窗南侧实墙；面宽沿y方向",
+      "reference_bounds_m": [
+        6.504113,
+        8.05,
+        6.804113,
+        8.75
+      ],
+      "front_normal": "east",
+      "mount_bottom_intent_m": 1.05,
+      "content_status": "verified_use_and_case_template",
+      "width_basis": "R18 W1沿y方向700mm，取原外包长度；不使用300mm柜深作为图文宽度",
+      "photo_sources": [],
+      "id": "W1_修复观察_案例索引待填",
+      "texture_png": "W1_修复观察_案例索引待填.png",
+      "editable_vector_pdf": "W1_修复观察_案例索引待填.pdf",
+      "pixels": [
+        1120,
+        1600
+      ],
+      "graphic_face_size_m": [
+        0.7,
+        1.0
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "placement": "现有展台前立面/柜内标签位；先核净面，必要时等比缩小",
+      "front_normal": "inherit fixture front",
+      "content_status": "group_label_with_unverified_object_fields",
+      "width_basis": "新图文牌设计建议，不是R18家具外包或新增占地",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "G_格纳库组_型号待核",
+      "texture_png": "G_格纳库组_型号待核.png",
+      "editable_vector_pdf": "G_格纳库组_型号待核.pdf",
+      "pixels": [
+        1600,
+        444
+      ],
+      "graphic_face_size_m": [
+        0.9,
+        0.25
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "placement": "现有展台前立面/柜内标签位；先核净面，必要时等比缩小",
+      "front_normal": "inherit fixture front",
+      "content_status": "group_label_with_unverified_object_fields",
+      "width_basis": "新图文牌设计建议，不是R18家具外包或新增占地",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "H_二分之一组_版本待核",
+      "texture_png": "H_二分之一组_版本待核.png",
+      "editable_vector_pdf": "H_二分之一组_版本待核.pdf",
+      "pixels": [
+        1600,
+        587
+      ],
+      "graphic_face_size_m": [
+        0.6,
+        0.22
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "Q1"
+      ],
+      "placement": "现有展台前立面/柜内标签位；先核净面，必要时等比缩小",
+      "front_normal": "inherit fixture front",
+      "content_status": "group_label_with_unverified_object_fields",
+      "width_basis": "新图文牌设计建议，不是R18家具外包或新增占地",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "Q_四分之一组_版本待核",
+      "texture_png": "Q_四分之一组_版本待核.png",
+      "editable_vector_pdf": "Q_四分之一组_版本待核.pdf",
+      "pixels": [
+        1600,
+        469
+      ],
+      "graphic_face_size_m": [
+        0.75,
+        0.22
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "M1"
+      ],
+      "placement": "现有展台前立面/柜内标签位；先核净面，必要时等比缩小",
+      "front_normal": "inherit fixture front",
+      "content_status": "group_label_with_unverified_object_fields",
+      "width_basis": "新图文牌设计建议，不是R18家具外包或新增占地",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "M_多规格组_规格待核",
+      "texture_png": "M_多规格组_规格待核.png",
+      "editable_vector_pdf": "M_多规格组_规格待核.pdf",
+      "pixels": [
+        1600,
+        782
+      ],
+      "graphic_face_size_m": [
+        0.45,
+        0.22
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "V1"
+      ],
+      "placement": "现有展台前立面/柜内标签位；先核净面，必要时等比缩小",
+      "front_normal": "inherit fixture front",
+      "content_status": "group_label_with_unverified_object_fields",
+      "width_basis": "新图文牌设计建议，不是R18家具外包或新增占地",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "V1_轮展故事_作品待填",
+      "texture_png": "V1_轮展故事_作品待填.png",
+      "editable_vector_pdf": "V1_轮展故事_作品待填.pdf",
+      "pixels": [
+        1600,
+        591
+      ],
+      "graphic_face_size_m": [
+        0.65,
+        0.24
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "V2"
+      ],
+      "placement": "现有展台前立面/柜内标签位；先核净面，必要时等比缩小",
+      "front_normal": "inherit fixture front",
+      "content_status": "group_label_with_unverified_object_fields",
+      "width_basis": "新图文牌设计建议，不是R18家具外包或新增占地",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "V2_轮展档案_作品待填",
+      "texture_png": "V2_轮展档案_作品待填.png",
+      "editable_vector_pdf": "V2_轮展档案_作品待填.pdf",
+      "pixels": [
+        1600,
+        591
+      ],
+      "graphic_face_size_m": [
+        0.65,
+        0.24
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    },
+    {
+      "r18_fixture_targets": [
+        "U1"
+      ],
+      "placement": "U1原600×1200保护台内的小卡，不扩台",
+      "front_normal": "inherit viewing face",
+      "content_status": "template_pending",
+      "width_basis": "小卡400×200mm设计建议",
+      "mount_bottom_intent_m": null,
+      "photo_sources": [],
+      "id": "U1_过程样件_标签待填",
+      "texture_png": "U1_过程样件_标签待填.png",
+      "editable_vector_pdf": "U1_过程样件_标签待填.pdf",
+      "pixels": [
+        1600,
+        800
+      ],
+      "graphic_face_size_m": [
+        0.4,
+        0.2
+      ],
+      "height_status": "图文排版设计建议，不是实测墙高；统一3D可在原墙面可用范围内等比缩放，不据此移动墙柱",
+      "color_space": "RGB",
+      "background": "opaque warm paper",
+      "photo_treatment": "原图按比例完整置入；未裁切、重绘、修复或变形",
+      "is_ai_generated": false,
+      "texture_role": "仅图文覆面；不代表新增柜体、墙体、落地牌或增加R18占地"
+    }
+  ],
+  "copy_json": "content_final.json",
+  "actual_photo_edits": false,
+  "generated_ai_images": false,
+  "pending_case_assets": [
+    "同件到馆照片",
+    "损伤近景",
+    "实际操作过程",
+    "完成同机位照片",
+    "收藏者口述",
+    "明确日期",
+    "逐件真实型号"
+  ],
+  "global_model_instructions": "保留原门、柱、墙、通行和家具；图文朝向按front_normal。图文法线与墙体相反两面不能弄错。背面AN1/AN2与内侧RT_B/RT_S同时保留。"
+}
